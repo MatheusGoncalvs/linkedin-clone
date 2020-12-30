@@ -1,0 +1,295 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #333;
+}
+
+/* remember to define focus styles! */
+:focus, :hover, :active {
+    outline: 0;
+    color: #333;
+}
+
+body {
+	line-height: 1;
+	color: black;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+}
+
+.menu {
+    background-color: white;
+    border-bottom: solid 1px #eeeeee;
+    width: 100vw;
+}
+
+.menu a:hover {
+    color: #cccccc;
+}
+
+.menu .img-profile {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: block;
+}
+
+.logo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 0px 0px;
+}
+
+li {
+    float: left;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    min-height: 52px;
+    min-width: 80px;
+}
+
+input {
+    float: left;
+    margin: 10px 130px 0px 0px;
+    padding: 10px 10px;
+    background-color: #eeeeee;
+    border-color: transparent;
+    border-radius: 5px;    
+}
+
+li i {
+    text-align: center;
+    font-size: 22px;
+}
+
+.last-li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: solid 1px #eeeeee;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+.account-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experimente-texto {
+    font-size: 12.5px;
+    max-width: 125px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.experimente-texto h6 {
+    color: #915907;
+}
+
+.arrow-down {
+    font-size: 16px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.bloco-perfil-info {
+    min-width: 216px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #eeeeee;
+}
+
+.secao-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.secao-1 .img-profile {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.secao-1 h4 {
+    color: #4c4c4c;
+    margin-top: 7px;
+}
+
+.secao-1 h2 {
+    color: black;
+    font-weight: bold;
+}
+
+.secao-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.secao-2 h4 {
+    font-weight: bold;
+}
+
+.secao-3 {
+    display: flex;
+    padding: 15px;
+}
+
+.meus-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meus-itens i {
+    margin-right: 10px;
+}
+
+.secao-3 h4 {
+    text-align: left;
+}
+
+.text-group-column {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.txt-blue {
+    color: rgb(7, 108, 163);
+}
+
+.content {
+    margin: 0 20px;
+}
+
+.bloco-comecar-publicacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 552px;
+    min-height: 116px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    border-radius: 12px;
+    padding: 0 15px;
+}
+
+.bloco-comecar-publicacao input {
+    background-color: white;
+    width: 95%;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+}
+
+.bloco-publicacao {
+    width: 552px;
+    min-height: 224px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.bloco-noticias {
+    min-width: 216px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #eeeeee;
+    padding: 15px;
+}
+
+.title-noticias {
+    font-weight: bold;
+}
+
+.noticia {
+    margin: 10px;
+}
+
+.anexos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.anexo {
+    display: flex;
+    font-weight: bold;
+}
+
+.anexo i {
+    margin-right: 10px;
+}
